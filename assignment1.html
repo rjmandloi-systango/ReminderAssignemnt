@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Remainder message
+    </title>
+    <link rel="stylesheet" href="./css/assignment1.css">
+</head>
+
+<body>
+    <div class="row">
+
+        <div class="column1">
+            <p><b><em>Remainders</em></b></p>
+            
+            <ul id="myUL">
+  
+                
+            </ul>
+        </div>
+
+        <div class="column2 div1" style="text-align: center;"><br><br><br>
+
+            <div class="div2">
+                <p class="para1">A Message You Would Like To Pass</p>
+                <input type="text" size="40" id="txtid" class="inp1"><br><br>
+                <label for="select time">total time:</label>
+
+
+                <select id="totaltime">
+                    <option value="1">1min</option>
+                    <option value="2">2min</option>
+                    <option value="3">3min</option>
+                    <option value="4">4min</option>
+                </select>
+                <button class="btn1" id="myInput" onclick="clickHere()">Add Reminder</button><br>
+                <label for="select time">time interval:</label>
+
+                <select id="time">
+                    <option value="1">1sec</option>
+                    <option value="2">2sec</option>
+                    <option value="5">5sec</option>
+                    <option value="10">10sec</option>
+                </select>
+                <p class="para2"><strong>Last Message Delivered</strong></p>
+               
+
+
+            </div>
+        </div>
+        <div class="column3">
+            <p><b>remind me</b> </p>
+            <p id="printMessage" style="text-align: center;"> <b>message</b></p><br>
+        </div>
+    </div>
+    <script src="js/assignment1.js"></script>
+</body>
+
+</html>
