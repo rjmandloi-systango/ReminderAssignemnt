@@ -1,0 +1,55 @@
+<html lang='en'>
+	<head>
+		<title>Remainder</title>
+		<meta charset='UFT-8' name='viewport' content='width=device-width, initial=scale=1.0' >
+		<link rel='stylesheet' type='text/css' href='program1.css'>
+	</head>
+	<body>
+		<div id='main-container'>
+			<h2 id='clock'></h2>
+		</div>
+
+		<div id='alarm-container'>
+			<h3>Set Remainder time</h3>
+				<label>
+					<div >
+					<select id='alarmhrs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmmins' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmsecs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+						<select id="ampm">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+				</div>
+		</div>
+
+		<div id='buttonHolder'>
+			<div>
+				<button  id='setButton' onClick='alarmSet()'>Set Remainder</button>
+			</div>
+
+			<div>
+				<button  id='clearButton' onClick='alarmClear()'>Clear Remainder</button>
+			</div>
+		</div>
+<div>
+  <br><br><br>  <input type="text" id="inputText" size='50' height="100" style="width: 200px; height: 30px; " placeholder="enter remainder note" color:red>
+
+</div>
+		<script type='text/javascript' src='program1.js' ></script>
+	</body>
+</html>
